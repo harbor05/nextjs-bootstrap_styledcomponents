@@ -8,12 +8,12 @@ version: "1.4.3"(Bootstrap 4.5.3)</br>
 
 ```npm install react-bootstrap bootstrap --save```
 
-## Styled-Components
+## 3. Styled-Components
 version: "5.2.1"</br>
 
 ```npm install --save styled-components```
 
-## Babel settings
+## 4. Babel settings
 need more babel settings for optimization (.babelrc)</br>
 
 ~~npm install --save-dev babel-plugin-styled-components~~
