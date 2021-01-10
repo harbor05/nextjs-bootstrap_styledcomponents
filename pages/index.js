@@ -1,5 +1,11 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import styled from 'styled-components'
+
+const Title = styled.h1`
+  font-size: 50px;
+  color: ${({ theme }) => theme.colors.primary};
+`
 
 export default function Home() {
   return (
@@ -8,12 +14,11 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <Title>Here is Styled-Components!</Title>
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
-
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
